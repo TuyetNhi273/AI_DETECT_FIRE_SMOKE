@@ -2,7 +2,6 @@ import cv2
 import torch
 from pathlib import Path
 
-
 class Detector:
     def __init__(self, weights_path, camera_index=0):
         """Initialize the detector with a model and camera index."""

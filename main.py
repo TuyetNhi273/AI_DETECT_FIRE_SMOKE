@@ -19,7 +19,6 @@ class Main:
 
         self.detector = Detector("best.pt", "frame")
 
-
 if __name__ == "__main__":
     main = Main()
     try:
